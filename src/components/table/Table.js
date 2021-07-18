@@ -26,7 +26,7 @@ export const Table = () => {
     (async function () {
       try {
         const res = await axios.get(
-          `http://www.mocky.io/v2/5d889c8a3300002c0ed7da42`
+          `https://www.mocky.io/v2/5d889c8a3300002c0ed7da42`
         );
         dispatch(addInitialData(res.data.items));
       } catch (error) {
