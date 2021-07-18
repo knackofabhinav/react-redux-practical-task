@@ -58,15 +58,24 @@ export const Table = () => {
   });
 
   return (
-    <div>
+    <div style={{ display: "flex", justifyContent: "center" }}>
       <div
         style={{
           display: "flex",
           justifyContent: "center",
           flexDirection: "column",
+          alignItems: "center",
+          width: "80vw",
         }}
       >
-        <div style={{ display: "flex", justifyContent: "space-between" }}>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            padding: "1rem",
+            width: "100%",
+          }}
+        >
           <div>
             <input
               type="checkbox"
@@ -157,8 +166,8 @@ export const Table = () => {
             />
           </div>
         </div>
-        {filteredData.length !== 0 ? (
-          <table>
+        {users.length !== 0 ? (
+          <table style={{ width: "100%" }}>
             <thead>
               <tr>
                 <th>#</th>
