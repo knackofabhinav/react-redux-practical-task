@@ -1,0 +1,9 @@
+tr {
+    border-top: 1px solid rgb(87, 87, 87);
+    border-bottom: 1px solid rgb(87, 87, 87)
+}
+
+td {
+    padding: 1rem;
+
+}
